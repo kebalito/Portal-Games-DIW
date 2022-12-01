@@ -1,0 +1,326 @@
+@media(max-width:900px) {
+    * {
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: inter, sans-serif;
+        color: #fff;
+    }
+
+    body {
+        background-color: #000;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        width: 100%;
+        background-color: #0D0D0D;
+
+
+        padding-right: 32px;
+        padding-left: 32px;
+    }
+
+    button {
+        background-color: #333333;
+        height: 35px;
+        width: 88px;
+        border-radius: 10px;
+        border: none;
+    }
+
+    img {
+        height: 70px;
+        width: 70px;
+    }
+
+    #header-box {
+        display: flex;
+        align-items: center;
+    }
+
+    .main-box {
+        padding-top: 24px;
+        padding-bottom: 24px;
+        text-align: center;
+        background-color: #333333;
+    }
+
+    .main-info {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .main-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 24px;
+        text-align: start;
+        width: 50%;
+    }
+
+    .header-menu {
+        color: #fff;
+
+        text-decoration: none;
+
+        padding-right: 8px;
+        padding-left: 8px;
+
+        border-left: 1px solid #fff;
+    }
+
+    .header-menu:first-child {
+        border: none;
+    }
+
+    .header-menu:hover {
+        color: #d9d9d9;
+    }
+
+    option {
+        color: #000;
+    }
+
+    select {
+        color: #000;
+
+        height: 24px;
+        width: 160px;
+        border-radius: 4px;
+        margin-right: 24px;
+    }
+
+    select:last-child {
+        margin-right: 0px;
+    }
+
+    carousel-indicators {
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+    }
+
+    .header-release {}
+
+    #box-select {
+        display: flex;
+        align-items: center;
+    }
+
+    .header-release {
+        padding-top: 24px;
+        padding-bottom: 32px;
+    }
+
+    #box-releases {
+        margin-top: 24px;
+        width: 100%;
+        padding-right: 16px;
+        padding-left: 16px;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .release {
+        height: 240px;
+        max-width: 240px;
+        margin: 0 10px 48px 10px;
+    }
+
+    .release a {
+        text-decoration: none;
+    }
+
+    .release a:hover {
+        position: relative;
+        bottom: 10px;
+
+        transition: 2s position;
+    }
+
+    .release img {
+        width: 240px;
+        height: 135px;
+    }
+
+    .game-information{
+        background-color: rgb(13, 13, 13);
+        display: flex;
+        flex-direction: column;
+
+        padding: 10px;
+    }
+
+    .releases {
+        display: grid;
+        justify-content: center;
+
+    }
+
+    .option {
+        border-radius: 6px
+    }
+
+    #button-releases {
+        margin-left: auto;
+        border-radius: 6px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 240px;
+    }
+
+    .plataform {
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+
+    .plataform:first-child {
+        margin-left: 0px;
+    }
+
+    .plataform-image {
+        width: 320px;
+        height: 160px;
+    }
+
+    #plataform-title {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    #box-plataform {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .flex-carousel-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dropdown-toggle {
+        width: 160px;
+        margin-left: 24px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #plataform-container {
+        margin-top: 64px;
+    }
+
+    .plataform-text {
+        margin-top: 16px;
+    }
+
+    li {
+        list-style-type: square;
+    }
+
+    li::maker {
+        height: 24px;
+        width: 24px;
+    }
+
+    .more-details {
+        color: #fff;
+        text-decoration: none;
+
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .more-details:hover {
+        color: #d9d9d9;
+    }
+
+    #plataform-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #publisher-container {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #grid-plataform {
+        margin-top: 48px;
+
+        display: grid;
+        justify-content: center;
+    }
+
+    #about {
+        margin: 64px 0px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #about-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #about-text {
+        display: flex;
+        flex-direction: column;
+
+        width: 50%;
+    }
+
+    .info {
+        display: flex;
+    }
+
+    .social-media-icons {
+        display: flex;
+
+    }
+
+    footer {
+        background-color: #333333;
+
+        height: 80px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        padding: 48px 0px;
+    }
+
+    .publisher {
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+
+    .publisher:first-child {
+        margin-left: 0px;
+    }
+
+    .publisher-image {
+        width: 320px;
+        height: 160px;
+    }
+
+    #publisher-title {
+        display: flex;
+        justify-content: flex-start;
+    }
+}

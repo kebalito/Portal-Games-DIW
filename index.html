@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="icon" href="./assets/favicon.png" type="image/png">
+
+    <title>Games</title>
+
+    <link href="./src/styles/desktop.css" rel="stylesheet" />
+    <link href="./src/styles/mobile.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <a class="header-menu" href="index.html">
+            <img id="logo" src="./assets/favicon.png">
+        </a>
+
+        <div id="header-box">
+            <a class="header-menu" href="#carouselExampleIndicators">Destaques</a>
+            <a class="header-menu" href="#box-releases">Lançamentos</a>
+            <a class="header-menu" href="#publisher-container">Publishers</a>
+
+            <input id="txtSearch" type="search" class="texto-pesquisa">
+            <button id="btnSearch" class="search-button">Pesquisar</button>
+        </div>
+    </header>
+
+    <div id="gamesPlace" class="search"></div>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <div class="flex-item-carousel">
+                    
+                    <iframe width="640" height="480" src="https://www.youtube.com/embed/o3V-GvvzjE4"
+                        title="YouTube vi   deo player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+
+                    <div class="main-text">
+                        <h3 class="titulo">Fifa 23</h3>
+                        <span class="texto">
+                            <strong>Sobre: </strong>FIFA 23 será o próximo jogo eletrônico de simulação de futebol em
+                            desenvolvimento pela Electronic Arts.
+                        </span>
+                        <strong class="subtitulo">
+                            <span>Publisher: Eletronic Arts</span> -
+                            <span>Lançamento: September, 2022</span>
+                        </strong>
+                        <p class="texto">Publishers: Nintendo Switch, playstation 5 , Xbox One e PC</p>
+                        <p class="texto">Genero: Ação, Adventure e RPG</p>
+                        <p class="texto">Avaliação: 98%</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="flex-item-carousel">
+                    <iframe width="640" height="480" src="https://www.youtube.com/embed/b9hVuerqMVo"
+                        title="YouTube vi   deo player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+
+                    <div class="main-text">
+                        <h3 class="titulo">Valorant</h3>
+                        <span class="texto">
+                            <strong>Sobre: </strong> Valorant é um jogo eletrônico multijogador gratuito para jogar de
+                            tiro em primeira pessoa desenvolvido e publicado pela Riot Games
+                        </span>
+                        <strong class="subtitulo">
+                            <span>Publisher: Riot Games</span> -
+                            <span>Lançamento: May, 2020</span>
+                        </strong>
+                        <p class="texto">Plataforma: PC</p>
+                        <p class="texto">Genero: FPS</p>
+                        <p class="texto">Avaliação: 98%</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="flex-item-carousel">
+                    <iframe width="640" height="480" src="https://www.youtube.com/embed/uMjn_GDFrUA"
+                        title="YouTube vi   deo player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <div class="main-text">
+                        <h3 class="titulo">Apex Legends</h3>
+                        <span class="texto">
+                            <strong>Sobre:</strong> Apex Legends é um jogo eletrônico free-to-play do gênero battle
+                            royale
+                            desenvolvido pela Respawn Entertainment e publicado pela Electronic Arts
+                        </span>
+                        <strong class="subtitulo">
+                            <span>Publisher: Eletronic Arts</span> -
+                            <span>Lançamento: May, 2020</span>
+                        </strong>
+                        <p class="texto">Plataforms: Nintendo Switch, playstation 5 , Xbox One e PC</p>
+                        <p class="texto">Genero: Ação, Adventure e RPG</p>
+                        <p class="texto">Avaliação: 98%</p>
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+    </div>
+
+
+    <div id="box-releases">
+        <div>
+            <div class="header-release">
+                <h1>Jogos</h1>
+                <div>
+                    <div class="header-release">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Ordem:
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="">Action</a></li>
+                                <li><a class="dropdown-item" href="">Another action</a></li>
+                                <li><a class="dropdown-item" href="">Something else here</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Gênero:
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="">Action</a></li>
+                                <li><a class="dropdown-item" href="">Another action</a></li>
+                                <li><a class="dropdown-item" href="">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="releases">
+            </div>
+            <button id="button-releases">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="12" y1="5" x2="12" y2="19"></line>
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+                carregar mais lançamentos
+            </button>
+        </div>
+    </div>
+
+
+    <div id="plataform-container">
+
+        <div id="grid-plataform">
+            <h1 id="plataform-title">Plataforms</h1>
+            <div id="box-plataform">
+            </div>
+
+            <button id="button-releases" id="button-plataform">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="12" y1="5" x2="12" y2="19"></line>
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+                carregar mais plataformas
+            </button>
+
+        </div>
+    </div>
+    <div id="publisher-container">
+        <div id="grid-plataform">
+            <h1 id="publisher-title">Publishers</h1>
+            <div id="box-publisher">
+            </div>
+            <button id="button-releases" id="button-publisher">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="12" y1="5" x2="12" y2="19"></line>
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+                carregar mais publishers
+            </button>
+        </div>
+    </div>
+
+    <div>
+        <div id="about">
+            <div id="about-text">
+                <h1>Sobre</h1>
+
+            </div>
+            <div id="about-info">
+                <h1>Editorial</h1>
+                <div class="info">
+                     <strong>Redação: </strong>
+                    <p> Leandro Monteiro da Silva</p>
+                </div>
+                <div class="info">
+                    
+                    <strong>Matéria: </strong>
+                    <p> Engenharia de Software</p>
+                </div>
+                <div class="info">
+                    
+                    <strong>Matrícula: 781226</strong>
+                </div>
+                <h3>Redes sociais</h3>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Copyright 2022 - Disciplina de Desenvolvimento de Interface Web -
+            <strong>ICEI PUC MINAS </strong>
+        </p>
+        <img id="logo" src="/assets/favicon.png">
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+        </script>
+    <script type="module" src="./src/scripts/codigo.js">
+    </script>
+</body>
+
+</html>

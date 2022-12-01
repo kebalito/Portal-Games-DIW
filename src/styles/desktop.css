@@ -1,0 +1,398 @@
+@media (min-width: 900px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        width: 100%;
+        background-color: #d1d1d1;
+
+
+        padding-right: 32px;
+        padding-left: 32px;
+    }
+
+    input{
+        color: black;
+    }
+
+    button {
+        color: white;
+        margin-left: 8px;
+        background-color: #303030;
+        height: 35px;
+        width: 88px;
+        border-radius: 10px;
+        border: none;
+
+    }
+    button:hover{
+        transition: 0.5s;
+        background-color: #404040;
+    }
+
+    img {
+        height: 70px;
+        width: 70px;
+    }
+
+    #header-box {
+        display: flex;
+        align-items: center;
+
+    }
+
+    .main-box {
+        padding-top: 24px;
+        padding-bottom: 24px;
+        text-align: center;
+        background-color: #333333;
+    }
+
+    .main-info {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .main-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 24px;
+        text-align: start;
+        width: 50%;
+    }
+
+    .header-menu {
+
+        text-decoration: none;
+
+        padding-right: 8px;
+        padding-left: 8px;
+
+        border-left: 1px solid #fff;
+    }
+
+    .header-menu:first-child {
+        border: none;
+    }
+
+    .header-menu:hover {
+        color: #333333;
+    }
+
+    option {
+        color: #000;
+    }
+
+    select {
+        color: #000;
+
+        height: 24px;
+        width: 160px;
+        border-radius: 4px;
+        margin-right: 24px;
+    }
+
+    select:last-child {
+        margin-right: 0px;
+    }
+
+    carousel-indicators {
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+    }
+
+    .header-release {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #box-select {
+        display: flex;
+        align-items: center;
+    }
+
+    .header-release {
+        padding-top: 24px;
+        padding-bottom: 32px;
+    }
+
+    #box-releases {
+        margin-top: 24px;
+        width: 100%;
+        padding-right: 16px;
+        padding-left: 16px;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .release {
+        height: 240px;
+        max-width: 240px;
+        margin: 0 10px 48px 10px;
+
+        
+    }
+
+    .release a {
+        text-decoration: none;
+    }
+
+    .release > a:hover {
+        position: relative;
+        bottom: 10px;        
+
+    }
+
+    .release img {
+        width: 240px;
+        height: 135px;
+    }
+
+    .game-information{
+        background-color: rgb(13, 13, 13);
+        display: flex;
+        flex-direction: column;
+
+        padding: 10px;
+    }
+
+    .releases {
+        display: grid;
+
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+    .search {
+        display: grid;
+
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+
+    .option {
+        border-radius: 6px
+    }
+
+    #button-releases {
+        margin-left: auto;
+        border-radius: 6px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 240px;
+    }
+
+    #grid-plataform {
+        display: grid;
+        justify-content: center;
+    }
+
+    .plataform {
+        margin-left: 80px;
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+
+    .plataform:first-child {
+        margin-left: 0px;
+    }
+
+    .plataform-image {
+        width: 320px;
+        height: 160px;
+    }
+
+    #plataform-title {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    #box-plataform {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #plataform-container {
+        margin-top: 64px;
+    }
+
+    .plataform-text {
+        margin-top: 16px;
+    }
+
+    #plataform-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #grid-plataform {
+        display: grid;
+        justify-content: center;
+    }
+
+    .publisher {
+        margin-left: 80px;
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+
+    .publisher:first-child {
+        margin-left: 0px;
+    }
+
+    .publisher-image {
+        width: 320px;
+        height: 160px;
+    }
+
+    #publisher-title {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    #box-publisher {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #publisher-container {
+        margin-top: 64px;
+    }
+
+    .publisher-text {
+        margin-top: 16px;
+    }
+
+    #publisher-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .flex-item-carousel {
+        display: flex;
+        justify-content: center;
+    }.flex-item-carousel img{
+        width:  640px; 
+        height: 480px;
+    }
+
+    .dropdown-toggle {
+        width: 160px;
+        margin-left: 24px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    li {
+        zlist-style-type: square;
+    }
+
+    li::maker {
+        height: 24px;
+        width: 24px;
+    }
+
+    .more-details {
+        color: #fff;
+        text-decoration: none;
+
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .more-details:hover {
+        color: #d9d9d9;
+    }
+
+
+    #publisher-container {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .details{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 80px;
+    }
+
+    .game-details{
+        width: 90%;
+        margin-left: 80px;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .details > img{
+        margin: 40px;
+        width: 80%;
+        height: auto;
+        max-height: 640px;
+    }
+
+    .wrapper-games{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+    }
+
+    #about {
+        margin: 64px 0px;
+
+        display: flex;
+        justify-content: space-evenly;
+
+        padding: 0px 64px;
+    }
+
+    #about-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #about-text {
+        display: flex;
+        flex-direction: column;
+
+        width: 50%;
+    }
+
+    .info {
+        display: flex;
+    }
+
+    .social-media-icons {
+        display: flex;
+
+    }
+
+    footer {
+        background-color: #d1d1d1;
+
+        height: 80px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        padding: 0px 48px;
+    }
+}
